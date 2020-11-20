@@ -1,0 +1,40 @@
+2020-11-20 13:57:56.475  INFO 71575 --- [restartedMain] com.bingan.myblog.MyblogApplication      : Starting MyblogApplication on Bingans-MacBook-Pro.local with PID 71575 (/Users/binganfeng/IdeaProjects/myblog/target/classes started by binganfeng in /Users/binganfeng/IdeaProjects/myblog)
+2020-11-20 13:57:56.477  INFO 71575 --- [restartedMain] com.bingan.myblog.MyblogApplication      : The following profiles are active: dev
+2020-11-20 13:57:56.520  INFO 71575 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-11-20 13:57:56.520  INFO 71575 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-11-20 13:57:56.992  INFO 71575 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-11-20 13:57:57.045  INFO 71575 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48ms. Found 5 JPA repository interfaces.
+2020-11-20 13:57:57.525  INFO 71575 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-20 13:57:57.532  INFO 71575 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-20 13:57:57.532  INFO 71575 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-20 13:57:57.618  INFO 71575 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-20 13:57:57.619  INFO 71575 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1099 ms
+2020-11-20 13:57:57.723  INFO 71575 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-20 13:57:57.757  INFO 71575 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-20 13:57:57.784  INFO 71575 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-11-20 13:57:57.858  INFO 71575 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-11-20 13:57:57.875  WARN 71575 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-20 13:57:57.914  INFO 71575 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-20 13:57:58.125  INFO 71575 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-11-20 13:57:58.137  INFO 71575 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-20 13:57:58.146  INFO 71575 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-11-20 13:57:58.365  INFO 71575 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-11-20 13:57:58.402  INFO 71575 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-20 13:57:58.404  INFO 71575 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-11-20 13:57:58.702  INFO 71575 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-20 13:57:58.706  INFO 71575 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-20 13:57:59.201  INFO 71575 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-11-20 13:57:59.208  INFO 71575 --- [restartedMain] com.bingan.myblog.MyblogApplication      : Started MyblogApplication in 3.064 seconds (JVM running for 3.733)
+2020-11-20 13:58:03.330  INFO 71575 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-20 13:58:03.330  INFO 71575 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-20 13:58:03.341  INFO 71575 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2020-11-20 13:58:03.366  INFO 71575 --- [http-nio-8080-exec-1] com.bingan.myblog.aspect.LogAspect       : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.bingan.myblog.web.IndexController.index', args=[Page request [number: 0, size 10, sort: updateTime: DESC], {}]}
+2020-11-20 13:58:03.431  WARN 71575 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-11-20 13:58:03.439  WARN 71575 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-11-20 13:58:03.443  INFO 71575 --- [http-nio-8080-exec-1] com.bingan.myblog.aspect.LogAspect       : Result : index
+2020-11-20 13:58:04.150  INFO 71575 --- [http-nio-8080-exec-2] com.bingan.myblog.aspect.LogAspect       : Request : {url='http://localhost:8080/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.bingan.myblog.web.IndexController.newBlogs', args=[{}]}
+2020-11-20 13:58:04.159  INFO 71575 --- [http-nio-8080-exec-2] com.bingan.myblog.aspect.LogAspect       : Result : _fragments :: newblogList
+2020-11-20 13:58:07.408  INFO 71575 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-11-20 13:58:07.412  INFO 71575 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-20 13:58:07.415  INFO 71575 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-11-20 13:58:07.419  INFO 71575 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

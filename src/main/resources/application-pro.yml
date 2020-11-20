@@ -1,0 +1,16 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+
+logging:
+  level:
+    root: warn
+    com.fba: info
+  file:
+    name: log/blog-pro.log
+
+server:
+  port: 8081
